@@ -7,7 +7,6 @@ public class Actor extends Person {
         super(firstName, lastName, gender );
     }
 
-
     @Override
     public void introduce() {
 
@@ -18,6 +17,7 @@ public class Actor extends Person {
             case Female:
             System.out.println("My name is: " + firstName + " " + lastName + " I'm actor.");
         }
+
 
 
     }

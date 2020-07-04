@@ -16,7 +16,10 @@ public abstract class Person {
 
     public abstract void introduce();
 
-
-
+    @Override
+    public String toString() {
+        return firstName
+                + lastName ;
+    }
 }
 
